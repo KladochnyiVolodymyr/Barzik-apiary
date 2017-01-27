@@ -1,0 +1,55 @@
+
+html{
+  overflow-y: auto;
+}
+
+body{
+    background: #c2a070 url('../img/kraft_paper.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#wrapper{
+  padding-top: 40px;
+  text-align: center;
+}
+
+#wrapper p{
+  padding-bottom: 10px;
+}
+
+.main-img-wrapper img{
+  width: 550px;
+}
+
+.about-us, .contacts{
+  padding: 0 10%;
+}
+
+.about-us, .contacts,
+.about-us a, .contacts a{
+  font-family: cursive, sans-serif;
+  color: #fff;
+}
+
+.social-buttons{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.social-buttons a{
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.social-buttons a,
+.social-buttons a:hover, 
+.social-buttons a:visited{
+  color: #000;
+}
+
+.social-buttons i.fa{
+  font-size: 42px;
+}
+

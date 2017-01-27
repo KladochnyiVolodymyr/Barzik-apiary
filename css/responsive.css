@@ -1,0 +1,38 @@
+@media (min-width: 1367px) {
+  .main-img-wrapper img {
+    width: 800px;
+  }
+
+  #wrapper p{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1023px){
+  .social-buttons{
+    position: relative;
+    text-align: center;
+    bottom: 0px;
+    right: 0px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .about-us, .contacts{
+    padding: 0px 5%;
+  }
+}
+
+@media (max-width: 639px){
+  #wrapper{
+    padding-top: 20px;
+  }
+
+  .main-img-wrapper img{
+    width: 100%;
+  }
+
+  .about-us, .contacts{
+    font-size: 14px;
+  }
+}
