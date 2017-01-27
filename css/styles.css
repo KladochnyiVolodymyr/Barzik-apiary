@@ -9,8 +9,57 @@ body{
     background-attachment: fixed;
 }
 
+/*------header--------*/
+.header{
+  margin:0px auto;
+  z-index:0;
+}
+.header__wrap{
+  position: fixed;
+  z-index:9999;
+  width: 100%;
+  background: #000;
+  padding: 10px 0px;
+}
+.header__nav{
+  margin-left: 150px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.nav-list li{
+  float: left;
+  margin-right: 50px;
+}
+.nav-list li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 19px;
+}
+.header__social{
+  display: inline-block;
+  float: right;
+  margin-right: 150px;
+}
+.header__social i.fa{
+  font-size: 42px;
+}
+.header__social a,
+.header__social a:hover, 
+.header__social a:visited{
+  color: #fff;
+}
+.header__social a{
+  margin: 0px 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+/*------header end------*/
+
 #wrapper{
-  padding-top: 40px;
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -32,24 +81,4 @@ body{
   color: #fff;
 }
 
-.social-buttons{
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-}
-
-.social-buttons a{
-  margin: 0px 10px;
-  cursor: pointer;
-}
-
-.social-buttons a,
-.social-buttons a:hover, 
-.social-buttons a:visited{
-  color: #000;
-}
-
-.social-buttons i.fa{
-  font-size: 42px;
-}
 
